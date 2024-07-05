@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Detoxifier</title>
+  <style>
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+      /* padding: 40px; */
+      display: flex;
+      background-color: black;
+      color: azure;
+      align-items: center;
+      /* justify-content: center; */
+      flex-direction: column;
+      height: 170px;
+      width: 350px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    h2 {
+      margin: 5px;
+    }
+    label{
+      margin-bottom: 6px;
+    }
+    input {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px;
+      margin: 5px;
+      background-color: #0b0c0c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #f3f4f6;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h2>YouTube Detoxifier</h2>
+  <label for="keywords">Enter keywords (comma-separated)</label>
+  <input type="text" id="keywords" placeholder="tutorial, review, news, comedy, documentary">
+  <button id="save">Save Keywords</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
